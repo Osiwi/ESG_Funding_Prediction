@@ -37,3 +37,18 @@ To run the notebook yourself:
 
 Raw `.csv` data is intentionally excluded.
 
+## How to run this notebook
+
+1. Clone this repository.
+2. Create a local `data/` folder (this folder is ignored by git).
+3. Put your dataset in `data/Cleaned_ESG_Data2.csv` with the following columns:
+   - Environmental Score
+   - Social Score
+   - Governance Score
+   - Revenue (in million $)
+   - Profit (in million $)
+   - Funding Received (in million $)
+4. Open the notebook in Jupyter or VS Code.
+5. Update the `cleaned_data_path` variable if needed and run all cells.
+
+Note: The original dataset is private and is not included in this repository.
